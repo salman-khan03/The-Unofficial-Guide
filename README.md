@@ -1,31 +1,39 @@
 # The Unofficial Guide — Project 1
 
-> ⚠️ **DRAFT generated with AI assistance — reword each section in your own voice before
-> submitting, and confirm every claim matches what you understand about your system.**
-> The technical content reflects the system as actually built and tested.
+A small RAG (Retrieval-Augmented Generation) system that answers plain-language questions
+about university CS professors using only real student reviews, and cites where each
+answer came from.
 
-A Retrieval-Augmented Generation (RAG) system that answers plain-language questions
-about university CS professors using only real student reviews, with cited sources.
+## How to run
+
+```bash
+python -m venv .venv && source .venv/Scripts/activate   # Windows Git Bash
+pip install -r requirements.txt
+cp .env.example .env                                     # then paste your Groq key in
+python scrape_rmp.py        # collect reviews -> documents/
+python embed_store.py --build   # chunk + embed + store in ChromaDB
+python app.py               # launch the Gradio UI at http://localhost:7860
+```
 
 ---
 
 ## Domain
 
-Student-written reviews of **Computer Science professors at Stanford and Harvard**,
-collected from Rate My Professors. This is the unofficial counterpart to a course
-catalog: catalogs list who teaches a class, but never whether the professor is a tough
-grader, whether the lectures are clear, or whether attendance actually matters. That
-knowledge only exists in what students tell each other, scattered across hundreds of
-short individual reviews that no single page summarizes. Covering two schools also lets
-the system answer cross-school comparison questions.
+I built this around **student reviews of CS professors at Stanford and Harvard**, from
+Rate My Professors. A course catalog will tell you a class exists and who teaches it, but
+not the things you actually want before you register — whether the grading is fair,
+whether the lectures are worth attending, whether the professor wants to be there. That
+knowledge only exists in what students tell each other, scattered across hundreds of short
+reviews that nothing ever summarizes. I used two schools so I could also ask cross-school
+comparison questions.
 
 ---
 
 ## Document Sources
 
-11 documents, one plain-text file per professor, collected programmatically from the
-Rate My Professors GraphQL API via `scrape_rmp.py`. Each file holds that professor's
-reviews plus a header (overall rating, difficulty, total rating count).
+11 documents, one plain-text file per professor, collected from the Rate My Professors
+GraphQL API with `scrape_rmp.py`. Each file holds that professor's reviews plus a header
+(overall rating, difficulty, review count).
 
 | #  | Source (file) | Type | URL or file path |
 |----|---------------|------|------------------|
@@ -41,51 +49,52 @@ reviews plus a header (overall rating, difficulty, total rating count).
 | 10 | cs_stanford_greg_tucker_reviews.txt     | RMP reviews (3)  | ratemyprofessors.com — Stanford CS |
 | 11 | cs_stanford_binh_le_reviews.txt         | RMP reviews (1–2)| ratemyprofessors.com — Stanford CS |
 
-**Ingestion/cleaning:** `scrape_rmp.py` queries the GraphQL API for each school's CS
-professors and writes only the substantive review text + ratings — no HTML, nav, or
-ads, since the API returns structured data. A department filter keeps only Computer
-Science professors (using a word-boundary match so "economi**cs**" is excluded).
+**How I ingested and cleaned them:** `scrape_rmp.py` queries the GraphQL API for each
+school's CS professors and writes only the review text plus ratings — there's no HTML,
+nav, or ads to strip because the API returns structured data. I filter to Computer
+Science professors using a word-boundary match, after I found that a naive `"cs"` check
+was matching "economi**cs**" and pulling in an econ professor by mistake.
 
 ---
 
 ## Chunking Strategy
 
-**Chunk size:** One student review per chunk (variable, ~60–414 characters; avg 188).
-Documents are split on the `[Review N]` boundaries that `scrape_rmp.py` writes.
+**Chunk size:** One student review per chunk (variable, ~60–414 characters, average 188).
+I split documents on the `[Review N]` markers my scraper writes.
 
 **Overlap:** 0.
 
-**Why these choices fit your documents:** These documents are collections of discrete
-records, not continuous prose. Each review is a self-contained opinion from one student
-about one course, so a review is the natural retrieval unit. Fixed-size chunking (e.g.
-500 chars) would merge several unrelated reviews into one embedding — averaging "best
-professor I've had" together with "garbage, useless knowledge" into a muddy vector that
-matches no specific query well. Because reviews are independent, no fact spans a
-boundary, so overlap would only duplicate text without rescuing split context.
+**Why this fits my documents:** These documents are collections of separate records, not
+flowing prose. Each review is one student's complete take on one course, so a review is
+the natural thing to retrieve. Fixed-size chunking would merge several unrelated reviews
+into a single embedding — a chunk holding both "best professor I've had" and "garbage,
+useless knowledge" averages into a vector that matches nothing well. And because reviews
+are independent, no fact gets split across a boundary, so overlap would only duplicate
+text without helping.
 
-**Preprocessing:** Each chunk is prepended with metadata before embedding —
-`Professor <name>, <school>, course <class>: <review text>` — so even a one-line review
-carries the professor and course and stays retrievable. The identical templated review
-RMP returns for every professor ("Clear lectures, fair exams.") is dropped as noise.
+**Preprocessing:** Before embedding, I prepend metadata to each chunk —
+`Professor <name>, <school>, course <class>: <review>` — so even a one-line review still
+carries who and what it's about and stays findable. I also drop the identical
+"Clear lectures, fair exams." review that RMP returns as a default for every professor,
+since it's pure noise.
 
-**Final chunk count:** 154 chunks across 11 documents (within the 50–2,000 range).
+**Final chunk count:** 154 chunks across 11 documents (well within the 50–2,000 range).
 
 ---
 
 ## Embedding Model
 
-**Model used:** `all-MiniLM-L6-v2` via `sentence-transformers` (384-dimensional, runs
-locally with no API key or rate limits). It's well-suited here because reviews are
-short English text and this model is tuned for short-sentence semantic similarity.
+**Model used:** `all-MiniLM-L6-v2` via `sentence-transformers` (384-dim, runs locally, no
+API key or rate limits). It fits because my text is short English reviews and this model
+is tuned for short-sentence similarity.
 
-**Production tradeoff reflection:** If cost weren't a constraint, I'd weigh a larger
-hosted model (e.g. OpenAI `text-embedding-3-large` or Cohere embeddings) for better
-accuracy on nuanced or sarcastic review text, which MiniLM can miss. Other axes:
-**context length** matters little here (reviews are short) but would for long-form
-guides; **multilingual** support would matter if reviews weren't all English;
-**latency / local-vs-API** — MiniLM's local inference means zero per-query cost and no
-rate limits, ideal for a free, demoable project, at some accuracy cost versus a larger
-API model.
+**If I were deploying this for real and cost didn't matter:** I'd consider a larger hosted
+model (OpenAI `text-embedding-3-large` or Cohere) for better accuracy on sarcastic or
+nuanced reviews, which MiniLM sometimes misses. Context length barely matters here since
+reviews are short, but it would for long guides; multilingual support would matter if the
+reviews weren't all English. The main tradeoff is latency and local-vs-API — running
+MiniLM locally costs nothing per query and has no rate limits, which is ideal for a free
+project, so I'd only switch if the accuracy gain clearly justified it.
 
 ---
 
@@ -106,40 +115,40 @@ Five representative chunks, each labeled with its source document:
 Embedding model + ChromaDB (cosine distance), top-k = 5. Three queries:
 
 **Query 1 — "What do students say about Andrew Ng's machine learning courses?"**
-Top 5 chunks (distances 0.274–0.352) are all from `cs_stanford_andrew_ng_reviews.txt`,
-e.g. *"Greatest professor ever! ...his Machine Learning course"* and *"one of the best
+All 5 chunks (distances 0.274–0.352) came from `cs_stanford_andrew_ng_reviews.txt`, e.g.
+*"Greatest professor ever! ...his Machine Learning course"* and *"one of the best
 instructors in the ML field."*
-*Why relevant:* every chunk is from the correct professor and directly addresses his ML
-teaching — the query terms ("machine learning", "courses") map cleanly onto reviews
-that discuss exactly that, and the low distances confirm strong semantic match.
+*Why these are relevant:* every chunk is the right professor and directly about his ML
+teaching. The query words ("machine learning", "courses") map cleanly onto reviews that
+discuss exactly that, and the low distances confirm a strong match.
 
 **Query 2 — "How do students describe Percy Liang as a professor?"**
-Top 5 (distances 0.332–0.466) are all from `cs_stanford_percy_liang_reviews.txt`,
-spanning *"The worst form of professor. Useless knowledge. Garbage."* and *"I really
-love his lecturing style!"*
-*Why relevant:* retrieval surfaced both extremes of a polarizing professor rather than
-one side, giving the LLM the full range — the metadata prefix ("Professor Percy Liang")
-anchors even short reviews to the right person.
+All 5 (distances 0.332–0.466) came from `cs_stanford_percy_liang_reviews.txt`, ranging
+from *"The worst form of professor. Useless knowledge. Garbage."* to *"I really love his
+lecturing style!"*
+*Why these are relevant:* retrieval surfaced both extremes of a divisive professor instead
+of one side, which is exactly what I want to hand the model. The metadata prefix
+("Professor Percy Liang") anchors even the short reviews to the right person.
 
 **Query 3 — "Which CS professor is described as funny or like a stand-up comedian?"**
-Top hit (distance 0.288): `cs_stanford_chris_gregg_reviews.txt` — *"He is hilarious and
-I think he can be a great stand-up comedian."* Also surfaces Malan's "funniest dad
-jokes" review.
+Top hit (distance 0.288): `cs_stanford_chris_gregg_reviews.txt` — *"He is hilarious and I
+think he can be a great stand-up comedian."* It also surfaced Malan's "funniest dad jokes"
+review.
 
 ---
 
 ## Grounded Generation
 
-**System prompt grounding instruction:** The model is instructed to *"Answer using ONLY
-information in the provided reviews. Do not use any outside or prior knowledge about
-these professors. If the reviews do not contain enough information to answer, reply
-exactly: 'I don't have enough information on that.'"* It is also told to reflect the
-range when reviews disagree and not to invent professors, courses, or quotes. The
-retrieved chunks are passed as labeled context blocks (`[Review N | source: ...]`).
+**How I enforce grounding:** The system prompt tells the model to *"Answer using ONLY
+information in the provided reviews. Do not use any outside or prior knowledge about these
+professors. If the reviews do not contain enough information to answer, reply exactly:
+'I don't have enough information on that.'"* It's also told to reflect the range when
+reviews disagree and not to invent professors, courses, or quotes. I pass the retrieved
+chunks as labeled context blocks (`[Review N | source: ...]`).
 
-**How source attribution is surfaced:** Sources are added **programmatically** from
-each retrieved chunk's metadata (`query.py`), not left to the LLM to generate — so
-citations can't be hallucinated. When the answer is a refusal, no sources are attached.
+**How sources show up:** Citations are added **programmatically** from each retrieved
+chunk's metadata in `query.py`, not generated by the model — so a source can't be
+hallucinated. If the answer is a refusal, no sources get attached.
 
 ---
 
@@ -172,9 +181,9 @@ A **Gradio web UI** (`app.py`, run with `python app.py` → http://localhost:786
 
 - **Input field:** "Your question" — a text box for a plain-language question.
 - **Output fields:** "Answer" (the grounded response) and "Retrieved from" (the cited
-  source files). Example questions are provided as clickable buttons.
+  source files). I also added a few example questions as clickable buttons.
 
-**Sample interaction transcript:**
+**Sample interaction:**
 ```
 Your question:  How do students describe Percy Liang as a professor?
 Answer:         Students have varying opinions about Professor Percy Liang, with some
@@ -189,8 +198,8 @@ Retrieved from: • cs_stanford_percy_liang_reviews.txt
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | What do students say about Andrew Ng's ML courses? | Highly regarded; clear, difficult but worth it; Coursera praised | "Amazing", "great teacher", "best in the ML field"; Coursera mentioned | Relevant (0.27–0.35) | Accurate |
-| 2 | How do students describe Percy Liang? | Polarizing/low-rated; dismissive in OH, confusing, minority praise lecturing | Reflects both "worst form of professor" and "love his lecturing style" | Relevant (0.33–0.47) | Accurate |
+| 1 | What do students say about Andrew Ng's ML courses? | Very positive; clear, hard but worth it; Coursera praised | "Amazing", "great teacher", "best in the ML field"; Coursera mentioned | Relevant (0.27–0.35) | Accurate |
+| 2 | How do students describe Percy Liang? | Divisive/low-rated; dismissive in OH, confusing, minority praise lecturing | Reflects both "worst form of professor" and "love his lecturing style" | Relevant (0.33–0.47) | Accurate |
 | 3 | Are Malan's CS50 lectures clear or too lecture-heavy? | Mixed: clear/engaging vs lecture-heavy/dense | "Amazing" vs "not much substance" | Relevant (0.31–0.32) | Accurate |
 | 4 | Which professor is funny / a stand-up comedian? | Chris Gregg; Piech "hilarious" | Gregg (stand-up comedian), Malan (dad jokes), Szumlanski | Relevant (0.29–0.42) | Accurate |
 | 5 | Do any reviews mention group projects? | Not covered — should refuse | "No... but one review mentions a 'cutting-edge project' in CS229" | Off-target (0.63–0.76) | Partially accurate |
@@ -199,62 +208,65 @@ Retrieved from: • cs_stanford_percy_liang_reviews.txt
 
 ## Failure Case Analysis
 
-**Question that failed:** "Do any reviews mention group projects or team assignments?"
+**The question that failed:** "Do any reviews mention group projects or team assignments?"
 
 **What the system returned:** *"No, the reviews do not mention group projects, but one
 review mentions the freedom to work on a 'cutting-edge project' in Professor Andrew Ng's
 CS229 course."* — and it attached 5 source files instead of cleanly declining.
 
-**Root cause (tied to a specific pipeline stage):** Two stages contributed. (1)
-**Retrieval:** no review actually discusses group projects, so the top-5 chunks were all
-weak matches (distances 0.63–0.76, above the ~0.6 "weak" threshold) — there was nothing
-relevant to retrieve. (2) **Generation + attribution:** the model latched onto the one
-semantically-nearest word ("project" in Ng's CS229 review) and stretched it toward the
-question instead of refusing. Because my refusal detection in `query.py` keys on the
-exact phrase `"don't have enough information"`, and the model phrased its near-refusal
-differently ("No, the reviews do not mention..."), the source-suppression logic didn't
-fire and 5 sources were attached to an answer that's essentially "not covered."
+**Root cause (tied to specific pipeline stages):** Two things went wrong, in two different
+stages. First, in **retrieval**: no review actually talks about group projects, so the
+top-5 chunks were all weak matches (distances 0.63–0.76, above the ~0.6 line where I'd
+call a match weak) — there was simply nothing relevant to find. Second, in **generation
+and attribution**: the model latched onto the single nearest word it could find
+("project" in Ng's CS229 review) and stretched it toward the question instead of refusing.
+And because my refusal check in `query.py` looks for the exact phrase
+`"don't have enough information"`, the model's differently-worded near-refusal ("No, the
+reviews do not mention...") slipped past it, so the source-suppression logic never fired
+and 5 sources got attached to what's basically a "not covered" answer.
 
-**What you would change to fix it:** Add a **distance threshold** in `retrieve()` — if
-the best distance exceeds ~0.6, treat the query as unanswerable and short-circuit to the
-refusal before calling the LLM. Optionally, detect refusals semantically rather than by
-exact string match so source attribution is suppressed for any form of "not covered."
+**What I'd change to fix it:** Add a distance threshold in `retrieve()` — if even the best
+distance is above ~0.6, treat the question as unanswerable and return the refusal before
+ever calling the LLM. I'd also detect refusals by meaning rather than exact string so
+sources are suppressed for any phrasing of "not covered."
 
 ---
 
 ## Spec Reflection
 
-**One way the spec (`planning.md`) helped you during implementation:** Committing to
-"one review = one chunk, overlap 0, metadata prepended" in the spec before coding made
-the chunking implementation direct and unambiguous — `chunk_documents.py` simply splits
-on review boundaries and prepends the metadata line, with no fixed-size tuning needed.
-Deciding the strategy on paper first meant the code matched the documents' structure
-instead of fighting it.
+**One way the spec helped me:** Deciding "one review = one chunk, overlap 0, metadata
+prepended" in `planning.md` before I wrote any code made the implementation almost
+mechanical — `chunk_documents.py` just splits on review boundaries and adds the metadata
+line, with no fiddling over a magic character count. Working out the strategy on paper
+first meant the code matched the shape of my data instead of fighting it.
 
-**One way your implementation diverged from the spec, and why:** The spec didn't
-anticipate the templated "Clear lectures, fair exams." seed review that RMP returns for
-every professor. I added a cleaning step to drop that exact string, because leaving it in
-would have created 11 near-identical chunks that pollute retrieval and add no signal —
-a divergence driven by what the real data actually contained once collected.
+**One way my implementation diverged from the spec:** I hadn't planned for the templated
+"Clear lectures, fair exams." review that RMP returns for every single professor. Once I
+saw it in the real data I added a cleaning step to drop that exact string, because leaving
+it in would have created 11 near-identical chunks that pollute retrieval and carry no real
+information. It's a small change, but it came directly from looking at what the data
+actually contained rather than what I assumed it would.
 
 ---
 
 ## AI Usage
 
-**Instance 1**
+**Instance 1 — chunking**
 - *What I gave the AI:* My Chunking Strategy section from `planning.md` (one review per
-  chunk, overlap 0, metadata prepended) plus the format of the scraped `.txt` files.
+  chunk, overlap 0, metadata prepended) and the format of my scraped `.txt` files.
 - *What it produced:* `chunk_documents.py`, splitting on `[Review N]` boundaries and
   prepending `Professor <name>, <school>, course <class>:` to each review.
-- *What I changed or overrode:* I directed it to drop the templated "Clear lectures,
-  fair exams." seed review after I noticed it appears identically in every file, and I
-  verified the output by inspecting 5 sample chunks and the total count (154).
+- *What I changed or directed:* I told it to drop the "Clear lectures, fair exams."
+  placeholder once I noticed it appears identically in every file, and I verified the
+  output by inspecting 5 sample chunks and checking the total count (154).
 
-**Instance 2**
+**Instance 2 — generation and the failure case**
 - *What I gave the AI:* My grounding requirement (answer only from retrieved context,
-  refuse otherwise) and the requirement that source attribution be programmatic.
-- *What it produced:* `query.py` with a strict system prompt and metadata-based source
-  attribution, plus `app.py` (Gradio UI).
-- *What I changed or overrode:* Testing surfaced that a borderline query ("group
-  projects") wasn't refused cleanly because refusal detection used exact-phrase matching;
-  I documented this as my failure case and identified a distance-threshold fix.
+  refuse otherwise) and the rule that source attribution had to be programmatic, not
+  model-generated.
+- *What it produced:* `query.py` with a strict system prompt and metadata-based citations,
+  plus `app.py` (the Gradio UI).
+- *What I changed or directed:* When testing surfaced that the "group projects" query
+  wasn't refused cleanly, I traced it to the exact-phrase refusal check, documented it as
+  my failure case, and worked out the distance-threshold fix rather than just patching
+  over the symptom.
