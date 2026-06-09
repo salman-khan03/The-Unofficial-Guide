@@ -1,0 +1,20 @@
+Professor: Greg Tucker
+School: Stanford University
+Department: Computer Science
+Overall rating: 5 / 5  |  Difficulty: 2 / 5  |  Total ratings: 2
+======================================================================
+
+[Review 1] Course: CS18  |  Date: 2026-06-06 22:44:07 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: CS18  |  Date: 2025-12-02 07:56:53 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A  Would take again: 1
+Tags: Group projects, Beware of pop quizzes, Lecture heavy
+This class was really helpful and made JavaScript feel way more understandable, especially the backend parts we covered. The lectures were clear, and the examples made the harder topics less intimidating. I left the course feeling more confident actually building things on my own
+----------------------------------------------------------------------
+[Review 3] Course: CS18  |  Date: 2024-05-22 13:20:44 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: Rather not say  Would take again: 1
+Tags: Participation matters, Gives good feedback, Caring
+Great course, clear instruction, impactful teaching style. Highly recommended for anyone looking to learn javascript. Way better than appacademy
+----------------------------------------------------------------------

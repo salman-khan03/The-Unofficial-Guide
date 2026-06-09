@@ -1,0 +1,49 @@
+Professor: Percy Liang
+School: Stanford University
+Department: Computer Science
+Overall rating: 2.7 / 5  |  Difficulty: 4.3 / 5  |  Total ratings: 9
+======================================================================
+
+[Review 1] Course: CS221  |  Date: 2026-05-31 23:13:27 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: CS336  |  Date: 2026-05-02 05:33:44 +0000 UTC
+Quality: 1/5  Difficulty: 4/5  Grade: Not sure yet  Would take again: None
+Tags: Lots of homework, So many papers, Online Savvy
+As noted in other reviews, the experience is confusing, and the professor has two different sides. When he teaches CS 336, the classroom feels awkward; the CA have a stronger grasp of the material and Professor Liang struggles to frankly acknowledge his mistakes. Spend time attending OH or seeking guidance from other instructors.
+----------------------------------------------------------------------
+[Review 3] Course: CS221  |  Date: 2025-07-02 07:44:03 +0000 UTC
+Quality: 2/5  Difficulty: 3/5  Grade: A  Would take again: None
+Difficult to talk to. Makes you feel like asking questions is wasting his time during OH, and that he does not want to be teaching. Otherwise the course was okay, too introductory for modern AI.
+----------------------------------------------------------------------
+[Review 4] Course: CS221  |  Date: 2022-05-16 01:46:50 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Tags: Amazing lectures 
+I really love his lecturing style! He is very polite, knowledgable, such a job to listen. He definetely is a pro!
+----------------------------------------------------------------------
+[Review 5] Course: CS221  |  Date: 2021-10-10 17:29:41 +0000 UTC
+Quality: 3/5  Difficulty: 4/5  Grade: N/A  Would take again: 0
+The worst form of professor. Useless knowledge. Garbage.
+----------------------------------------------------------------------
+[Review 6] Course: CS221  |  Date: 2021-09-27 17:51:24 +0000 UTC
+Quality: 3/5  Difficulty: 5/5  Grade: N/A  Would take again: 0
+Two students from his lab quit during their term because of his constant verbal abuse and harassment. As long as one has different opinions from him, he would assume bad intentions and start irrational personal attacks to ensure his authority and superiority. Conversations are often depressing and toxic. No personal growth of the student victim.
+----------------------------------------------------------------------
+[Review 7] Course: CS221  |  Date: 2021-08-24 16:07:00 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: N/A  Would take again: 0
+He is the judgemental, controlling, and insensitive professor I have ever seen. He often fails to control his emotion when interacting with others. Public humiliation, yelling, or sarcasm to others happens sometimes. His manner doesn't seem professional and often is considered abusive. Not sure what you can learn given his confusing behavior.
+----------------------------------------------------------------------
+[Review 8] Course: CS221  |  Date: 2021-08-07 17:01:35 +0000 UTC
+Quality: 3/5  Difficulty: 5/5  Grade: N/A  Would take again: 0
+As a professor, he is still too young. Difficult course materials do not necessarily help one to improve and grow. Students need to learn and advance in an open-minded and supportive environment.
+----------------------------------------------------------------------
+[Review 9] Course: CS221  |  Date: 2021-07-23 10:47:48 +0000 UTC
+Quality: 2/5  Difficulty: 4/5  Grade: N/A  Would take again: 0
+Tags: Lots of homework, Skip class? You won't pass., Tough grader
+Although his lecture might be informative, I won't take his class again as his communication style is uncomfortable to me. He likes to use intimidation and sometimes jump into conclusion recklessly when communicating with him.
+----------------------------------------------------------------------
+[Review 10] Course: CS221  |  Date: 2015-10-05 00:56:17 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+The first half of each lecture is typically an explanation of the concepts, and the second half is done on the whiteboard and/or a live demo on screen. Professor Liang writes code faster than anyone I've ever seen!
+----------------------------------------------------------------------

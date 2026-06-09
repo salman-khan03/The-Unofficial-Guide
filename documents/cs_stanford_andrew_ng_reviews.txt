@@ -1,0 +1,111 @@
+Professor: Andrew Ng
+School: Stanford University
+Department: Computer Science
+Overall rating: 4.1 / 5  |  Difficulty: 3.5 / 5  |  Total ratings: 24
+======================================================================
+
+[Review 1] Course: CS229  |  Date: 2026-06-07 05:58:19 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: ML  |  Date: 2023-10-18 12:14:08 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: A+  Would take again: 1
+Tags: Inspirational, Respected
+A great professor with a vision for how the future of the AI industry would look like.
+----------------------------------------------------------------------
+[Review 3] Course: ML09  |  Date: 2020-08-30 18:34:10 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+As one of the top researchers in the CS field, Professor Ng is one of the greatest professors ever. If you get him, his class is surely difficult, but it's totally worth it. By the end of his ML class, you'll have more industry knowledge than most people making six figures in Silicon Valley.
+----------------------------------------------------------------------
+[Review 4] Course: CS229  |  Date: 2020-08-28 01:28:13 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Amazing lectures, Caring
+I had him for machine learning on Coursera. He explained everything very thoroughly and easy to understand. The homework was also extremely helpful.
+----------------------------------------------------------------------
+[Review 5] Course: CS229  |  Date: 2019-11-27 19:58:46 +0000 UTC
+Quality: 4/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+He is one of the best instructors in the ML field, he elaborate concepts so smoothly which helps students to understand better.
+----------------------------------------------------------------------
+[Review 6] Course: CS229  |  Date: 2019-11-07 13:54:20 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: Audit/No Grade  Would take again: 1
+I've participated in Andrew Ng's Machine Learning and Deep Learning courses on Coursera. They are really amazing.
+----------------------------------------------------------------------
+[Review 7] Course: CS229  |  Date: 2019-05-27 09:52:27 +0000 UTC
+Quality: 3/5  Difficulty: 2/5  Grade: N/A  Would take again: 1
+Tags: Respected, Inspirational, Beware of pop quizzes
+he is a great teacher
+----------------------------------------------------------------------
+[Review 8] Course: CS229  |  Date: 2017-01-22 02:09:30 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: A-  Would take again: 0
+Tags: LOTS OF HOMEWORK
+Made a wonderful subject unnecessarily hard because of hurried explanations and VERY sloppy notation. Every method has the term K, so K can mean any number of different things on a given day of the week. Sucks.
+----------------------------------------------------------------------
+[Review 9] Course: ML09  |  Date: 2016-08-10 14:52:07 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+great
+----------------------------------------------------------------------
+[Review 10] Course: ML09  |  Date: 2016-07-09 17:09:16 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Participated in Coursera MOOC. Excellent course. Highly Recommended. Inspirational and Humble figure. Extreme clarity in deliverance. Relevant and useful assignments, makes you ready to employ the technique to real life problems. Thanks for becoming a hero in ML and AI buy providing your wealth of experience to thousands of underprivileged.
+----------------------------------------------------------------------
+[Review 11] Course: CS229  |  Date: 2016-06-28 03:40:04 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: Not sure yet  Would take again: 1
+Greatest professor ever!  I am currently in the third week of his Machine Learning course (created by Stanford, offered through Coursera).  It's absolutely amazing!  Prof. Ng explains pretty advanced topics in understandable ways.  His numerous lecture videos are top-notch.  Thank you, Prof. Ng!  You are the greatest!!
+----------------------------------------------------------------------
+[Review 12] Course: ML09  |  Date: 2016-05-07 07:58:33 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: N/A  Would take again: None
+He is nice to learn fom.
+----------------------------------------------------------------------
+[Review 13] Course: ML  |  Date: 2014-01-01 20:48:34 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: A  Would take again: None
+Wonderful course of Machine Learning!
+----------------------------------------------------------------------
+[Review 14] Course: CS229  |  Date: 2013-11-03 00:20:46 +0000 UTC
+Quality: 2/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+Prof. Ng is very polite but he rushes explanations and his notes don't distinguish scalars/vectors/matrices. He overloads the meaning of various notational terms. Homework is very hard (most TAs don't understand it) and requires you to know magic never taught in class. Great subject but absolutely ridiculous course.
+----------------------------------------------------------------------
+[Review 15] Course: CS229  |  Date: 2012-11-08 21:42:34 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: None
+Professional Ng is an amazing lecturer, absolutely top notch. His notes are extremely detailed and refined. But going to his class is still a plus, he's clear, to the point and extremely good with giving examples for anything that might be fuzzy in the notes. The class is not easy however - at least for me, the homework really requires a lot work.
+----------------------------------------------------------------------
+[Review 16] Course: CS229  |  Date: 2012-06-28 09:47:35 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: N/A  Would take again: None
+Best ever teacher
+----------------------------------------------------------------------
+[Review 17] Course: CS229  |  Date: 2011-12-20 19:28:41 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: None
+Absolutely amazing! Genuinely interested in the subject, explains concepts with clarity, uses excellent examples and focuses on what's important. Usually you'd need to meet a professor in person to iron out problems and understanding. He managed to teach via lecture videos and STILL got through to most people. Absolutely amazing!
+----------------------------------------------------------------------
+[Review 18] Course: CS229  |  Date: 2011-11-13 03:08:03 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: None
+A great teacher who always explains hard-to-understand concept in a easy way. The programming exercises really helps me gain deeper understanding about ML. The course is hard, but Prof really really did a good job!
+----------------------------------------------------------------------
+[Review 19] Course: CS229  |  Date: 2011-01-11 15:39:47 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+Very well-organized class on a hard topic. Great lecture notes. Freedom to work on a cutting-edge project.
+----------------------------------------------------------------------
+[Review 20] Course: CS229  |  Date: 2009-04-26 00:09:56 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: None
+I have only watched videos of his course
+----------------------------------------------------------------------
+[Review 21] Course: ML09  |  Date: 2009-01-07 15:11:23 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+This guy's a legend!
+----------------------------------------------------------------------
+[Review 22] Course: CS221  |  Date: 2007-01-18 11:38:05 +0000 UTC
+Quality: 4/5  Difficulty: 4/5  Grade: N/A  Would take again: None
+No Comments
+----------------------------------------------------------------------
+[Review 23] Course: CS229  |  Date: 2006-12-04 19:13:17 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+His lecture notes are very clear, but he's a terrible lecturer in person. He mumbles and writes equations on the board without differentiating useful ones from algebraic derivations. I'm very serious when I say that he draws arrows labeled &quot;magic&quot; when he gets tired of explaining things.
+----------------------------------------------------------------------
+[Review 24] Course: CS221  |  Date: 2005-03-29 17:00:40 +0000 UTC
+Quality: 3/5  Difficulty: 4/5  Grade: N/A  Would take again: None
+No Comments
+----------------------------------------------------------------------
+[Review 25] Course: CS229  |  Date: 2004-12-31 17:15:01 +0000 UTC
+Quality: 2/5  Difficulty: 4/5  Grade: N/A  Would take again: None
+No Comments
+----------------------------------------------------------------------

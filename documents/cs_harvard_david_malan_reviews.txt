@@ -1,0 +1,296 @@
+Professor: David Malan
+School: Harvard University
+Department: Computer Science
+Overall rating: 4.6 / 5  |  Difficulty: 2.9 / 5  |  Total ratings: 91
+======================================================================
+
+[Review 1] Course: CS50  |  Date: 2026-06-08 08:00:13 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: CS50  |  Date: 2025-12-12 22:21:38 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+Tags: Tough grader, Lots of homework, Lecture heavy
+He made me crashout, hard to even know what was happening
+----------------------------------------------------------------------
+[Review 3] Course: CS50  |  Date: 2025-12-12 21:49:32 +0000 UTC
+Quality: 2/5  Difficulty: 5/5  Grade: Drop/Withdrawal  Would take again: None
+Tags: So many papers, Lecture heavy, Test heavy
+Talks too much I already forgot half the things I've learned at the beginning like stop telling us your life story. He acts like we are babies but we are grown ups and we aren't that stupid.
+----------------------------------------------------------------------
+[Review 4] Course: CS50X  |  Date: 2025-12-12 20:04:18 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A+  Would take again: 1
+Tags: Amazing lectures , Inspirational, Hilarious
+The best lecturer.
+----------------------------------------------------------------------
+[Review 5] Course: CS50X  |  Date: 2025-12-02 10:30:07 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Tags: Amazing lectures , Inspirational, Respected
+he's awesome
+----------------------------------------------------------------------
+[Review 6] Course: CS  |  Date: 2025-10-09 17:50:30 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: N/A  Would take again: 1
+very nice and friendly, also funny. answers very fast to any emails containing questions about the lectures.
+----------------------------------------------------------------------
+[Review 7] Course: CS50X  |  Date: 2025-07-10 17:51:05 +0000 UTC
+Quality: 3/5  Difficulty: 4/5  Grade: A-  Would take again: 1
+Tags: Amazing lectures , Lecture heavy, Graded by few things
+I took CS50X (on edX) at 13. I recommend watching attending the sections and shorts. The lectures are trying to combine a lot of information into 2-2:30hr lectures.
+----------------------------------------------------------------------
+[Review 8] Course: CS50  |  Date: 2025-05-03 08:32:11 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A+  Would take again: 1
+Tags: Amazing lectures , Inspirational, Caring
+I wish I took this class in person. The way he teaches is truly special and helps people fall in love with computers.
+----------------------------------------------------------------------
+[Review 9] Course: CS50  |  Date: 2025-03-24 15:50:06 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A-  Would take again: 1
+Tags: Participation matters, So many papers, Test heavy
+he is very nice. i forgot about an assignment so i turned in my essay on the mean girls movie and he gave me half credit. never thought i would ever meet another mean girls enthusiast
+----------------------------------------------------------------------
+[Review 10] Course: CSCIE1B  |  Date: 2025-03-04 15:38:13 +0000 UTC
+Quality: 3/5  Difficulty: 4/5  Grade: A-  Would take again: 1
+Tags: Amazing lectures , Lots of homework, Test heavy
+Great lectures but be ready to study
+----------------------------------------------------------------------
+[Review 11] Course: CS50  |  Date: 2025-02-12 13:37:00 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures 
+He's Amazing!
+----------------------------------------------------------------------
+[Review 12] Course: CS  |  Date: 2025-01-27 09:34:45 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: B+  Would take again: 1
+Tags: Tough grader, Participation matters, Inspirational
+Blah blah blah
+----------------------------------------------------------------------
+[Review 13] Course: CS50P  |  Date: 2025-01-20 01:23:16 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Amazing lectures , Inspirational, Respected
+This guy makes me wish I could've taken his class in person because his lectures were just THAT amazing. I took CS50P in my junior year of high school, and he is easily the best professor/teacher I've ever had. He has the most concise and easy-to-understand lectures I've ever seen. 100% recommend!
+----------------------------------------------------------------------
+[Review 14] Course: CS50X  |  Date: 2024-07-29 17:25:52 +0000 UTC
+Quality: 3/5  Difficulty: 5/5  Grade: Incomplete  Would take again: None
+I got through to the 10th class. You can see the spike in "most replayed" in YouTube for when he poorly explains things. Malan has to condense usual 50-70 hour Udemy/YouTube course material into 10 2hr videos so it makes sense why its too difficult. Professor Malan is good but the course is too dense. I recommend learning a in depth course/bootcamp
+----------------------------------------------------------------------
+[Review 15] Course: CS50  |  Date: 2024-02-18 14:30:29 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Amazing lectures , Hilarious, Respected
+The best lectures in CS for beginners and newcomers in tech.
+----------------------------------------------------------------------
+[Review 16] Course: CS50  |  Date: 2023-10-20 10:56:09 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A-  Would take again: 1
+He was awesome. Watched online
+----------------------------------------------------------------------
+[Review 17] Course: CS50X  |  Date: 2023-10-08 04:12:39 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Amazing lectures , Respected
+Taking his lectures through HarvardX and he manages to make comp sci easy and interesting. Clearly very passionate and knowledgeable about his field, I was a little iffy about going into comp sci but watching him convinced me. Idk what he's like in person but clearly a great lecturer.
+----------------------------------------------------------------------
+[Review 18] Course: CS50X  |  Date: 2023-07-01 18:21:44 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Amazing lectures , Inspirational, Lots of homework
+Professor Malan is very inspirational, knowledgeable, and funny. His courses are one of the best computer science courses, and they're available for everyone, not just Harvard students.
+----------------------------------------------------------------------
+[Review 19] Course: CS50X  |  Date: 2023-06-08 05:47:38 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Amazing lectures , Inspirational
+Best professor ever! Thanks for all you do David & team!
+----------------------------------------------------------------------
+[Review 20] Course: CS50X  |  Date: 2023-04-01 06:35:48 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A+  Would take again: 1
+Tags: Participation matters, Amazing lectures , Inspirational
+Professor David is knowledgeable, approachable, and passionate about computer science. Their lectures were engaging, and they provided helpful feedback on assignments. Highly recommend.
+----------------------------------------------------------------------
+[Review 21] Course: CS50X  |  Date: 2023-02-22 17:26:54 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: Audit/No Grade  Would take again: 1
+This professor is very good
+----------------------------------------------------------------------
+[Review 22] Course: CS50X  |  Date: 2023-02-21 21:46:24 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures , Hilarious, Respected
+very good
+----------------------------------------------------------------------
+[Review 23] Course: CS50X  |  Date: 2022-06-19 21:27:18 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures , Inspirational, Lecture heavy
+Computer sciences are a tough subject for me, but thanks to him I've rekindled my desire to learn and stay in STEM. I highly recommend his course regardless of whether you're an enrolled Harvard student or not, he's very beginner friendly and highly motivational!
+----------------------------------------------------------------------
+[Review 24] Course: CS50X  |  Date: 2022-05-31 06:15:12 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A+  Would take again: 1
+EZPZ, highly recommend!
+----------------------------------------------------------------------
+[Review 25] Course: CS50X  |  Date: 2022-04-09 20:16:01 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: A+  Would take again: 1
+Tags: Amazing lectures , Inspirational, Online Savvy
+AMazing
+----------------------------------------------------------------------
+[Review 26] Course: CS50X  |  Date: 2022-01-19 12:34:52 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: N/A  Would take again: 1
+Tags: Inspirational, Amazing lectures, Lecture heavy
+One of the best professors I've ever had, clear and concise.
+----------------------------------------------------------------------
+[Review 27] Course: CS50X  |  Date: 2022-01-12 21:08:12 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Tags: Respected, Inspirational, Lecture heavy
+5/5 absolute unit
+----------------------------------------------------------------------
+[Review 28] Course: CSCIE1B  |  Date: 2021-03-28 19:38:09 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: N/A  Would take again: 0
+Tags: Graded by few things, Skip class? You won't pass., Tough grader
+Class run by TA's Lectures are recorded. Other reviews must be from past class not current one. Horrendous grading system. Three points given for each question and TA's state they rarely give three points out so do not expect to get greater than a C in this class. Lectures do not teach what you need to know. You have to figure it out on your own.
+----------------------------------------------------------------------
+[Review 29] Course: CS50  |  Date: 2021-02-16 07:56:53 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Gives good feedback, Respected, Inspirational
+Professor David keeps lectures interesting, and easy even when it comes to explaining the toughest things in every computer language, he is the person that actually got me interested in CS.
+----------------------------------------------------------------------
+[Review 30] Course: CS50X  |  Date: 2021-01-13 17:21:48 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: D-  Would take again: 0
+Tags: Skip class? You won't pass., Beware of pop quizzes, Tough grader
+I barely passed, 51% to be exact, yeah thats all
+----------------------------------------------------------------------
+[Review 31] Course: CS50X  |  Date: 2020-12-29 18:09:54 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Inspirational, Hilarious, Amazing lectures
+Great Prof. Made me fall in love with Computer Science!
+----------------------------------------------------------------------
+[Review 32] Course: CS50  |  Date: 2020-12-14 03:07:20 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: N/A  Would take again: 1
+Malan got my swagger back!!! I was legit a cow with no udders before this class and now Im plump and ready! Great lectures and a better person!
+----------------------------------------------------------------------
+[Review 33] Course: CS50  |  Date: 2020-11-20 17:58:48 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: B+  Would take again: 1
+Amazing prof
+----------------------------------------------------------------------
+[Review 34] Course: CS50  |  Date: 2020-09-29 14:56:53 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A+  Would take again: 1
+Tags: Gives good feedback, Lots of homework, Hilarious
+he is a very good guy i would take his class till the cows come home he was very respectful to every student give good grades not to much home work i guess and he is hilarious he tells the funniest dad jokes overall great guy teacher he could be a great friend to
+----------------------------------------------------------------------
+[Review 35] Course: CS50  |  Date: 2020-06-20 11:33:47 +0000 UTC
+Quality: 2/5  Difficulty: 2/5  Grade: Rather not say  Would take again: 0
+Tags: Respected, Clear grading criteria
+Beyond the smoke and mirrors of the fancy CS50 lectures, there's not much substance to what Malan teaches.
+----------------------------------------------------------------------
+[Review 36] Course: CS50X  |  Date: 2020-05-21 05:48:47 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+Great
+----------------------------------------------------------------------
+[Review 37] Course: CS50X  |  Date: 2020-05-04 12:09:14 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A+  Would take again: 1
+Tags: Respected, Inspirational, Caring
+He is the best professor ever.
+----------------------------------------------------------------------
+[Review 38] Course: CS50  |  Date: 2020-04-02 08:35:12 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+Awesome prof
+----------------------------------------------------------------------
+[Review 39] Course: CS50  |  Date: 2019-10-31 12:33:21 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Gives good feedback, Respected, Caring
+Make me learn the subject I used to fear the most.
+----------------------------------------------------------------------
+[Review 40] Course: CS50  |  Date: 2019-06-17 00:09:28 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: A  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+Best professor I've had in my entire undergraduate career. He is super passionate about coding at it shows. His lectures are organized. He does an amazing job of making such a hard and fast-paced class easy and manageable.
+----------------------------------------------------------------------
+[Review 41] Course: CS50X  |  Date: 2019-06-11 03:38:15 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures
+I took his class on Youtube's CS50 channel, and I was amazed by his passion into coding. Really appreciate to have him teach me the basics of Computer Science.
+----------------------------------------------------------------------
+[Review 42] Course: CS50X  |  Date: 2019-04-10 22:24:00 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Respected, Participation matters, Amazing lectures
+Hands down the best professor I've ever had.
+----------------------------------------------------------------------
+[Review 43] Course: CS50  |  Date: 2019-01-25 00:52:13 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A-  Would take again: 1
+Tags: Inspirational, Hilarious
+Good explanations. CS50 as a course could have been structured better.
+----------------------------------------------------------------------
+[Review 44] Course: CS50  |  Date: 2019-01-02 22:07:46 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: Drop/Withdrawal  Would take again: 1
+Tags: Tough Grader, Get ready to read, Skip class? You won't pass.
+Extremely good professor at Harvard, one of the best. Learned all about what an interger was etc.. addition multiplication and even subtraction. You really have to study and have a love for cs.
+----------------------------------------------------------------------
+[Review 45] Course: CS50  |  Date: 2018-10-16 13:32:52 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+Professor Malan gives the best lectures I have experienced.
+----------------------------------------------------------------------
+[Review 46] Course: CS50X  |  Date: 2018-08-30 11:17:56 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: Not sure yet  Would take again: 1
+Tags: LOTS OF HOMEWORK, Inspirational, Amazing lectures
+The best professor I have seen in my life, always well prepared with lectures well thought through. Makes the course material accessible and interesting. Highly recommended!
+----------------------------------------------------------------------
+[Review 47] Course: CS50X  |  Date: 2018-07-16 17:42:27 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A+  Would take again: 1
+Tags: Inspirational, ACCESSIBLE OUTSIDE CLASS, Amazing lectures
+Amazing lectures and explanation skills.
+----------------------------------------------------------------------
+[Review 48] Course: CS50  |  Date: 2018-07-13 17:28:24 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Respected, Hilarious, Amazing lectures
+The best professor I've ever heard, would definitely like to take his other courses. David is so inspiring!
+----------------------------------------------------------------------
+[Review 49] Course: CS50  |  Date: 2018-04-25 18:10:05 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Inspirational, Amazing lectures
+I am among those &quot;less comfortable&quot; with CS and if you're like me, you'll love this professor because of his way of teaching - he can make everything understandable. If you're among those &quot;more comfortable&quot; - you'll love him because of his knowledge - no matter how much you already know, you can still learn a lot from him.
+----------------------------------------------------------------------
+[Review 50] Course: CS50  |  Date: 2018-03-20 02:15:25 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Respected, Hilarious, Amazing lectures
+Amazing Teacher best teacher I have ever seen
+----------------------------------------------------------------------
+[Review 51] Course: CS50  |  Date: 2018-03-06 06:08:57 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Tags: Hilarious, Amazing lectures, Caring
+Amazing Teacher
+----------------------------------------------------------------------
+[Review 52] Course: CS50  |  Date: 2018-02-25 10:18:42 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Respected, Clear grading criteria, Amazing lectures
+He's very good in teaching in a understandable class hello is one of the best professors and I'm not even from computer science background but still I can still understand the class in abetter way
+----------------------------------------------------------------------
+[Review 53] Course: CS50  |  Date: 2018-01-30 02:54:12 +0000 UTC
+Quality: 5/5  Difficulty: 1/5  Grade: A+  Would take again: 1
+Tags: Hilarious, GROUP PROJECTS
+the best one!
+----------------------------------------------------------------------
+[Review 54] Course: CS50  |  Date: 2018-01-17 21:31:27 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A  Would take again: 1
+CS50 has been one of my favorite classes.
+----------------------------------------------------------------------
+[Review 55] Course: CS50X  |  Date: 2017-12-22 03:21:09 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: Not sure yet  Would take again: 1
+Tags: Gives good feedback, Inspirational, Hilarious
+I'm not done so maybe I can update later. I thought I'd write a review since I taught based on early lectures &amp; taught elsewhere. I have the impression an enormous, incredible amount of thought &amp; effort have been put into this class so it satisfies the goals of those taking it &amp; stays accessible. I haven't seen anything like it. Staff is tops.
+----------------------------------------------------------------------
+[Review 56] Course: CS50  |  Date: 2017-12-19 10:57:54 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Hilarious, Amazing lectures, Would take again
+Excellent teacher
+----------------------------------------------------------------------
+[Review 57] Course: CS50  |  Date: 2017-06-27 23:29:17 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures, Caring
+Great prof.
+----------------------------------------------------------------------
+[Review 58] Course: CS50  |  Date: 2017-03-15 15:58:32 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: N/A  Would take again: 1
+Tags: Respected, Hilarious, Amazing lectures
+Lectures are very useful and has a nice vibe to it.
+----------------------------------------------------------------------
+[Review 59] Course: CS50X  |  Date: 2016-10-27 10:13:54 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: Audit/No Grade  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+He is an amazing instructor. He is precise and to the point.
+----------------------------------------------------------------------
+[Review 60] Course: CS50  |  Date: 2016-05-14 04:49:14 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: A+  Would take again: None
+Nice lecture
+----------------------------------------------------------------------

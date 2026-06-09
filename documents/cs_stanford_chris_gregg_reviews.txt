@@ -1,0 +1,60 @@
+Professor: Chris Gregg
+School: Stanford University
+Department: Computer Science
+Overall rating: 4.8 / 5  |  Difficulty: 3.4 / 5  |  Total ratings: 10
+======================================================================
+
+[Review 1] Course: CS107  |  Date: 2026-05-29 02:00:38 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: 106B  |  Date: 2026-01-27 17:20:08 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: A  Would take again: 1
+Tags: Amazing lectures , Caring, Accessible outside class
+Great class, great professor, and entertaining lectures.
+----------------------------------------------------------------------
+[Review 3] Course: CS110  |  Date: 2024-10-05 03:14:09 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures , Caring
+One of the best professors I've had! 110 is not an easy class and he managed to explain everything so clearly. He's very caring and patient with students and his office hours are very helpful. He's not only super knowledgeable but an expert at teaching.
+----------------------------------------------------------------------
+[Review 4] Course: CS5001  |  Date: 2020-01-14 16:34:46 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A  Would take again: 1
+Tags: Gives good feedback, Respected, Inspirational
+Chris is the best teacher ever! He is hilarious and I think he can be a great stand-up comedian. He is also very dedicated and knows a lot about computer science. High recommended!!!!
+----------------------------------------------------------------------
+[Review 5] Course: CS107  |  Date: 2018-01-16 16:53:58 +0000 UTC
+Quality: 4/5  Difficulty: 4/5  Grade: N/A  Would take again: 0
+Tags: TEST HEAVY
+This is a pretty good teacher who lectures clearly and tries really hard to be nice. But he's defensive, assumes you already know all kinds of stuff to be in his class, then gets frustrated if what he said isn't totally obvious to you right away.
+----------------------------------------------------------------------
+[Review 6] Course: CS107  |  Date: 2017-10-18 14:41:15 +0000 UTC
+Quality: 5/5  Difficulty: 5/5  Grade: N/A  Would take again: 1
+Tags: ACCESSIBLE OUTSIDE CLASS, Clear grading criteria, LECTURE HEAVY
+great!
+----------------------------------------------------------------------
+[Review 7] Course: 106B  |  Date: 2017-06-15 13:25:54 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Respected, ACCESSIBLE OUTSIDE CLASS, Amazing lectures
+106B is a great class and Chris Gregg filled in so many holes in my CS understanding. This is the key course to move forward, and this teacher totally gets it!
+----------------------------------------------------------------------
+[Review 8] Course: CS106B  |  Date: 2017-06-10 22:59:45 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Respected, Clear grading criteria, TEST HEAVY
+This teacher may come off as a bit conservative and rigid, but when you get used to his teaching style you see he's very consistent and wants you to be too. Super nice, really wants you to succeed and have a solid CS foundation.
+----------------------------------------------------------------------
+[Review 9] Course: CS106X  |  Date: 2017-02-21 14:42:15 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Amazing lectures
+He is a very good lecturer, but doesn't like to live code in class and sometimes can't understand if you can't understand.
+----------------------------------------------------------------------
+[Review 10] Course: 106X  |  Date: 2017-01-20 15:24:59 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Tags: Gives good feedback, Inspirational, Amazing lectures
+Awesome prof! Super clear, helpful, and sooooo patient and caring with students.
+----------------------------------------------------------------------
+[Review 11] Course: CS106B  |  Date: 2016-12-27 00:53:09 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: N/A  Would take again: 1
+Tags: Respected, Inspirational, Amazing lectures
+Makes even the obscure and ugly math parts of CS interesting
+----------------------------------------------------------------------

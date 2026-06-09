@@ -1,0 +1,49 @@
+Professor: Sean Szumlanski
+School: Stanford University
+Department: Computer Science
+Overall rating: 3 / 5  |  Difficulty: 4.1 / 5  |  Total ratings: 8
+======================================================================
+
+[Review 1] Course: CS101  |  Date: 2026-05-29 02:24:57 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: CS106B  |  Date: 2026-03-22 23:31:43 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: N/A  Would take again: None
+Tags: Tough grader, Graded by few things
+He provides 0 context before doing any programming. He give off the appearance of constant busyness and pompous self-important while secretly resenting students. He sometimes always talks about being alone and makes inappropriate off-topic jokes about tech layoffs and competitive programming. Lastly, his exams are more difficult than lectures.
+----------------------------------------------------------------------
+[Review 3] Course: CS106B  |  Date: 2025-07-19 07:49:46 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: Not sure yet  Would take again: None
+He does not provide enough support to students.
+----------------------------------------------------------------------
+[Review 4] Course: CS106B  |  Date: 2025-05-08 14:31:17 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A  Would take again: 1
+Tags: Inspirational, Hilarious, Respected
+People come here for feedback, so I want to say that he is a truly phenomenal but challenging professor who is amazing at teaching, he even brought homemade cookies to class once. There is exactly one dedicated person who has given him 40-50 negative reviews on all sorts of websites over the last three years, so I wanted to give a warning for that.
+----------------------------------------------------------------------
+[Review 5] Course: CS106B  |  Date: 2025-02-05 23:21:15 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: Drop/Withdrawal  Would take again: None
+Tags: Tough grader, Get ready to read, Lots of homework
+He does not give you enough resources to help you do well in his class. While he is funny, hardworking and respected, he does not help you pass the class. I personally care more about my progress than how funny he is. His assignment prompts are overly lengthy, and he provides zero context on why he's doing something before doing it.
+----------------------------------------------------------------------
+[Review 6] Course: CS106B  |  Date: 2025-01-10 20:04:07 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: B  Would take again: 1
+Tags: Amazing lectures , Clear grading criteria, Respected
+I had him for CS2 at UCF. They guy was hands down the best UCF CS professor.
+----------------------------------------------------------------------
+[Review 7] Course: CS106B  |  Date: 2025-01-07 23:55:10 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A  Would take again: 1
+Tags: Amazing lectures , Caring, Graded by few things
+I have NEVER loved a teacher more than Sean. I took CS106B as a rising high school senior during the 2024 Summer Quarter, and even though he had to rush through some material (especially once we got to advanced data structures), I always looked forward to his lectures! He's energetic, concise, takes questions... Sean could make ANY class worth it!
+----------------------------------------------------------------------
+[Review 8] Course: CS106B  |  Date: 2024-09-24 22:33:35 +0000 UTC
+Quality: 1/5  Difficulty: 5/5  Grade: Not sure yet  Would take again: None
+Tags: Tough grader, Get ready to read, Lots of homework
+If you're new to programming, don't listen to him. He said "DSA" should be named "Thinking clearly", and he'd advice against looking up solutions even if you've spent more than 30 min on a problem and couldn't find a solution. Your brain is a neural network, and you need to repeat things, and making mistakes teaches you the best. Repitition is key.
+----------------------------------------------------------------------
+[Review 9] Course: CS106B  |  Date: 2024-01-28 22:46:46 +0000 UTC
+Quality: 5/5  Difficulty: 2/5  Grade: A  Would take again: 1
+Tags: Amazing lectures , Hilarious, Caring
+SEAN IS AMAZING!!!!!! His lectures cover lots of material but is very easy to understand. Sean is always available to answer questions from students. Very organized lectures, content-packed, and great jokes sprinkled throughout -- attend lectures and go to Office Hours!
+----------------------------------------------------------------------

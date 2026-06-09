@@ -1,0 +1,29 @@
+Professor: Emma Brunskill
+School: Stanford University
+Department: Computer Science
+Overall rating: 1 / 5  |  Difficulty: 3.3 / 5  |  Total ratings: 4
+======================================================================
+
+[Review 1] Course: CS234  |  Date: 2026-06-06 19:38:58 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: CS234  |  Date: 2026-03-02 20:28:00 +0000 UTC
+Quality: 1/5  Difficulty: 4/5  Grade: B  Would take again: None
+Her lectures have no organization or structure. Slides are chaotic and disorganized. She speaks fast; jumps from one topic to another; fails to provide any parallels, etc.
+There are three HWs in the class, which cover the material very poorly.
+----------------------------------------------------------------------
+[Review 3] Course: CS234  |  Date: 2026-01-31 22:35:00 +0000 UTC
+Quality: 1/5  Difficulty: 4/5  Grade: N/A  Would take again: None
+Tags: Group projects
+The course is simply insufferable and very disorganized.
+----------------------------------------------------------------------
+[Review 4] Course: CS234  |  Date: 2025-06-26 22:58:30 +0000 UTC
+Quality: 1/5  Difficulty: 3/5  Grade: N/A  Would take again: None
+Too large a class. Lectures not helpful. I'd choose to learn the theory part on my own instead of going to lectures and ending up learning nothing.
+----------------------------------------------------------------------
+[Review 5] Course: CS234  |  Date: 2019-05-23 22:52:53 +0000 UTC
+Quality: 1/5  Difficulty: 2/5  Grade: A-  Would take again: 0
+Tags: Tough grader
+She mumbles trough out the lectures ....
+----------------------------------------------------------------------

@@ -1,0 +1,28 @@
+Professor: Mostafa  Amir
+School: Harvard University
+Department: Computer Science
+Overall rating: 4 / 5  |  Difficulty: 3 / 5  |  Total ratings: 4
+======================================================================
+
+[Review 1] Course: CS50  |  Date: 2026-06-07 09:44:45 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: N/A  Would take again: 1
+Clear lectures, fair exams.
+----------------------------------------------------------------------
+[Review 2] Course: CS50  |  Date: 2025-12-13 00:57:54 +0000 UTC
+Quality: 2/5  Difficulty: 2/5  Grade: B+  Would take again: 1
+goated tbh love him
+----------------------------------------------------------------------
+[Review 3] Course: CS50  |  Date: 2025-12-13 00:57:18 +0000 UTC
+Quality: 4/5  Difficulty: 3/5  Grade: Rather not say  Would take again: 1
+goated tbh lovehim
+----------------------------------------------------------------------
+[Review 4] Course: CS50  |  Date: 2025-08-28 22:39:48 +0000 UTC
+Quality: 5/5  Difficulty: 3/5  Grade: A+  Would take again: 1
+Tags: Inspirational, Hilarious, Online Savvy
+Dr. Amir's lectures are basically live coding sessions with plot twists. He'll inject bugs into his code on purpose, like he's speedrunning Stack Overflow, just to remind us that errors are part of the dev cycle. Then he debugs it faster than my compiler can throw an error message. The fact that he's still in his 20s is insane!!! Much love Doc- {J}
+----------------------------------------------------------------------
+[Review 5] Course: CS50  |  Date: 2025-08-23 12:18:35 +0000 UTC
+Quality: 5/5  Difficulty: 4/5  Grade: A-  Would take again: 1
+Tags: Amazing lectures , Hilarious, Respected
+Really engaging. Always feels approachable and down-to-earth.
+----------------------------------------------------------------------
